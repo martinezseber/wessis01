@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="99f996b8-3ccc-4779-914e-72f9df912961" ESProjectName="Autoclave_V25" ESDeviceName="HMI_RT_2" RtProjectFolderName="Autoclave_V25.PC-SCADA[SIMATIC PC station - WinCC Unified PC RT]" RtProjectName="Autoclave_V25.PC-SCADA[SIMATIC PC station - WinCC Unified PC RT]" DeviceType="SIMATIC PC station - WinCC Unified PC RT" DeviceVersion="17.0.0.0" CreationTime="03/09/2022 18:47:38" FirmwareFileName="" RuntimeFileName="" PRCV="3.0.0.0" RTCV="0.0.0.0" RTReleaseNo="17.0.0.0" ImageReleaseNo="0.0.0.0" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>User.pbb</FullDownload>
+  <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
+  <FullDownload>{973E4613-DFA5-7D4C-1549-567968D56A01}.zip</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>{9F7D29E9-06B2-4973-AACF-2888C34E6EF2}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>faceplates\faceplate_676.rdf</FullDownload>
+  <FullDownload>fonts\SISAN03.ttf</FullDownload>
+  <FullDownload>fonts\SISAN03.woff2</FullDownload>
+  <FullDownload>general\AlarmLogging.rdf</FullDownload>
+  <FullDownload>general\backupStrategies.rdf</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_DistributionInfo.rdf</FullDownload>
+  <FullDownload>general\config_DpValue.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\config_LicenseCounter.rdf</FullDownload>
+  <FullDownload>general\config_PeripheralAddress.rdf</FullDownload>
+  <FullDownload>general\config_Range.rdf</FullDownload>
+  <FullDownload>general\config_SecureConnectionAttributes.rdf</FullDownload>
+  <FullDownload>general\config_Smoothing.rdf</FullDownload>
+  <FullDownload>general\config_TagLogging.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\fontLocatorList.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\style_264.rdf</FullDownload>
+  <FullDownload>general\style_335.rdf</FullDownload>
+  <FullDownload>general\style_411.rdf</FullDownload>
+  <FullDownload>general\TagLogging.rdf</FullDownload>
+  <FullDownload>general\textLibrary_89_1033.rdf</FullDownload>
+  <FullDownload>general\textLibrary_91_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>general\TypeContainer.rdf</FullDownload>
+  <FullDownload>screens\screen_119.rdf</FullDownload>
+  <FullDownload>screens\screen_123.rdf</FullDownload>
+  <FullDownload>screens\screen_441.rdf</FullDownload>
+  <FullDownload>screens\screen_442.rdf</FullDownload>
+  <FullDownload>screens\screen_443.rdf</FullDownload>
+  <FullDownload>screens\screen_460.rdf</FullDownload>
+  <FullDownload>screens\screen_594.rdf</FullDownload>
+  <FullDownload>screens\screen_622.rdf</FullDownload>
+  <FullDownload>screens\screen_633.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>

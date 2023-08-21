@@ -1,0 +1,109 @@
+{
+  "version": "2",
+  "users": [
+    {
+      "name": "Master",
+      "password": {
+        "hash": "dCjq5kDfJfqXbcAF2Csfn/UUK0z9ILkyGw3TPFuraOm6zHGQTzfUP3HfVyoDEG6eGbosSGvcHgYYdNClGs4vIQ==",
+        "salt": "4Ifc19sH1o4ckqtrNp4pcLgD5WeUTd7uy/Tu7/eefSM=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Master",
+      "comment": "Clp+ano+Maiuscula",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    },
+    {
+      "name": "Operador",
+      "password": {
+        "hash": "LNx9sbRC05uof/et8rPMah6pgBUmppbm2G8ZVbjj3DLKdf6WwRW5zwsHdsGqxKTW4OzHDMQk7BbmwacjzGHS4Q==",
+        "salt": "6W6nVi9PmI7D+8yQMX6fz1tOQIUrhmz8cyUStji/a2k=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Operador",
+      "comment": "Aa12345678",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    },
+    {
+      "name": "Manutencao",
+      "password": {
+        "hash": "LMH9j5gaa4LPMNcrfuwE6fmcOxIBEuA8gBiCFS5Q4qmzeIH58D/8b8AGku77+9SYMvRMEhS+HSwXeacbTinKwg==",
+        "salt": "aU1qjiQ+H+fq4NvDCoRouBjKk+QGuVYnpE76EpyEpuI=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Manutencao",
+      "comment": "Rt12345678",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    }
+  ],
+  "groups": [
+    {
+      "name": "HMI Administrator",
+      "roles": [
+        "HMI Administrator"
+      ],
+      "users": [
+        "Master",
+        "Manutencao"
+      ]
+    },
+    {
+      "name": "HMI Operator",
+      "users": [
+        "Master",
+        "Operador",
+        "Manutencao"
+      ]
+    },
+    {
+      "name": "HMI Monitor",
+      "users": [
+        "Master",
+        "Operador",
+        "Manutencao"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "HMI Administrator",
+      "rights": [
+        "UM_ADMIN",
+        "UM_IMPORT",
+        "UM_EXPORT",
+        "UM_VIEW",
+        "UM_RESETPWD"
+      ]
+    }
+  ],
+  "globalAccountPolicies": {
+    "enablePasswordHistoryByDays": 0,
+    "enablePasswordHistoryByNumber": 1,
+    "enablePasswordCheck": 1,
+    "numberOfPasswordBeforeReuse": 3,
+    "passwordAging": 0,
+    "passwordMaxLength": 120,
+    "passwordMinAlphaChar": 0,
+    "passwordMinLength": 8,
+    "passwordMinLowerChar": 1,
+    "passwordMinUpperChar": 1,
+    "passwordMinNumericChar": 1,
+    "passwordMinOtherChar": 0
+  },
+  "umcConfig": {
+    "local": {
+      "domainName": "UM_Domain"
+    }
+  }
+}
